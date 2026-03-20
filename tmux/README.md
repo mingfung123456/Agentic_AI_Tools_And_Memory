@@ -1,7 +1,8 @@
-1. update the claude code
-2. brew install tmux
-3. 
-'''
+# Steps
+## 1. update the claude code
+## 2. brew install tmux
+##3. 
+
 cat > ~/.claude/settings.json << 'EOF'
 {
 	"env": {
@@ -12,12 +13,12 @@ cat > ~/.claude/settings.json << 'EOF'
 	}
 }
 EOF
-'''
-4. cd to your-project
-5. run the command "tmux new-session -s claude-work"
-6. claude
-7. prepare the prompt (keyword - Create a team, ..  with 4 parallel agents )
-'''
+
+## 4. cd to your-project
+## 5. run the command "tmux new-session -s claude-work"
+## 6. claude
+## 7. prepare the prompt (keyword - Create a team, ..  with 4 parallel agents )
+----------
 # KAN-75 Open Banking Research - Agent Team Prompt
 Research direct bank connections via Plaid (US) and Flinks (Canada) for auto-importing transactions into our bookkeeping app (Next.js 14 + Supabase, Canada-first, targeting 1000 users → YC March 2026).
 Create a team called 'kan-75-research' with 2 parallel agents, then aggregate their findings into
